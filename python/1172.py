@@ -1,3 +1,3 @@
 import sys
-n = int(sys.stdin.readline().strip())
-for i in range(len(n)):
+n = list(map(int, sys.stdin.readline().split()))
+print(' '.join(map(str, sorted(n))))
